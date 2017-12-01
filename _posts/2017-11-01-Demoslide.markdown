@@ -45,12 +45,16 @@ class: center, middle
 ## 定位
 
 .floatleft[
-
+容器系统分层：
 - Runtime Layer
-- Container Layer（位于本层，管理各种容器运行时）
+- **Container Layer**
+
+  - To upper orchestrating layer, pouch supports Kubernetes and Swarm.
+  - To underlying runtime layer, pouch is compatible with oci-compatible runtime, such as [runC](https://github.com/opencontainers/runc), [runV](https://github.com/hyperhq/runv), runlxc and so on. To make storage and network big supplements, [CNI](https://github.com/containernetworking/cni) and [CSI](https://github.com/container-storage-interface) are in scope right there.
+
 - Orchestration Layer
 
-In pouch's roadmap, we set ecosystem embracing as a big target. To upper orchestrating layer, pouch supports Kubernetes and Swarm. To underlying runtime layer, pouch is compatible with oci-compatible runtime, such as [runC](https://github.com/opencontainers/runc), [runV](https://github.com/hyperhq/runv), runlxc and so on. To make storage and network big supplements, [CNI](https://github.com/containernetworking/cni) and [CSI](https://github.com/container-storage-interface) are in scope right there.
+
 
 ]
 
@@ -78,12 +82,9 @@ In pouch's roadmap, we set ecosystem embracing as a big target. To upper orchest
 ---
 # pouch命令
 
-<<<<<<< HEAD
+
 <img src="/slides/assets/images/pouch.png" style="width:90%;height:90%">
-=======
-<img src="/assets/images/pouch.png" style="width:90%;height:90%">
->>>>>>> a18ea33f278debf99cd0591761a7eab821d73511
----
+
 # Roadmap
 
 - **Container Regular Management**
