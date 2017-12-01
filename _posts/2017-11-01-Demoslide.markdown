@@ -10,6 +10,7 @@ categories: "slide"
 .floatright{float:right;width:60%;}
 </style>
 
+
 <textarea id="source">
 
 class: center, middle
@@ -77,7 +78,11 @@ In pouch's roadmap, we set ecosystem embracing as a big target. To upper orchest
 ---
 # pouch命令
 
+<<<<<<< HEAD
 <img src="/slides/assets/images/pouch.png" style="width:90%;height:90%">
+=======
+<img src="/assets/images/pouch.png" style="width:90%;height:90%">
+>>>>>>> a18ea33f278debf99cd0591761a7eab821d73511
 ---
 # Roadmap
 
