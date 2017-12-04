@@ -33,6 +33,7 @@ class: center, middle
 .floatleft[
 - 始于2011年，基于LXC开发的容器基础设施T4，内部使用，前身为Alidocker
 - 2015年开始吸收Docker镜像功能
+- 2017年11月11日开源，2018年3月1日发布第一个版本
 - 容器结合阿里内核，大幅提高隔离性
 - 关键特性：安全、性能、稳定性
 ]
@@ -72,7 +73,12 @@ class: center, middle
 - Pouchd
   * HTTP server
   * bridge layer
-  * Manager(System/Network/Volume/Container/Image)
+  * Manager
+    * System
+    * Network
+    * Volume
+    * Container
+    * Image
   * ctrd
 ]
 
@@ -84,6 +90,7 @@ class: center, middle
 
 
 <img src="/slides/assets/images/pouch.png" style="width:90%;height:90%">
+s
 ---
 # Roadmap
 
