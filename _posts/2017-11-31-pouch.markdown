@@ -1,7 +1,7 @@
 ---
 layout: singleslide
 title:  "Pouch介绍"
-date:   2017-11-30 00:45:41 -0700
+date:   2017-11-31 00:45:41 -0700
 categories: "slide"
 ---
 
@@ -73,13 +73,11 @@ class: center, middle
 - Pouchd
   * HTTP server
   * bridge layer
-  * Manager
-    * System
-    * Network
-    * Volume
-    * Container
-    * Image
   * ctrd
+  * Manager:System/Network
+  /Volume/Container/Image
+
+
 ]
 
 .floatright[
