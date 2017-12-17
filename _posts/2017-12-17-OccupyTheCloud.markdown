@@ -83,7 +83,7 @@ Problem: Designed for a server-oriented resource model
 
 #### Use a serverless architecture with stateless functions as the unifying abstraction for data processing.
 
-<img src="/images/assets/images/arct.png" >
+<img src="/slides/assets/images/arct.png" >
 
 Users submit single-threaded functions to a global scheduler and while submitting the function they can also annotate the runtime dependencies required. Once the scheduler determines where a function is supposed to run, an appropriate container is created for the duration of execution.
 
